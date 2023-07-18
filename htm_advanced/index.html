@@ -1,29 +1,70 @@
 <!DOCTYPE html>
-<html>
-    <head>
 
+<html lang="en">
+   
+    <head>
+        <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+        <title>Welcome to my first advance html</title>
+        <style>
+            .pros_avatar{
+                width: 70px;
+                height: 70px;
+                border-radius: 50%;
+            }
+            .avatar{
+                width: 170px;
+                height: 170px;
+                border-radius: 50%;
+            }
+            .reviewer_avatar{
+                width: 70px;
+                height: 70px;
+                border-radius: 50%;
+            }
+            .star{
+                width: 32px;
+                height: 32px;
+               
+            }
+            .membership_image{
+                width: 32px;
+                height: 32px;
+               
+            }
+            .icons{
+                width: 32px;
+                height: 32px;
+                border-radius: 50%;
+            }
+        </style>
     </head>
     <body id="body">
+                    <!--task 1, header navigation section-->
+
         <header id="navigation">
-            <img src="" alt="company logo">
+            <img src="assets/logo_image.jpg" alt="company logo">
             <ul>
                 <li>
-                    <a href="" class="nav">COURSES</a>
+                    <a href="https://google.com" class="nav" target="_blank">COURSES</a>
                 </li>
                 <li>
-                    <a href="" class="nav">PRICING</a>
+                    <a href="ttps://google.com" class="nav" target="_blank">PRICING</a>
                 </li>
                 <li>
-                    <a href="" class="nav">LOGIN</a>
+                    <a href="ttps://google.com" class="nav" target="_blank">LOGIN</a>
                 </li>
 
             </ul>
 
         </header>
+                 <!-- eon of task 1, header navigation section-->
+
+                  <!-- main section with multiole sections-->
         <main id="main">
+                     <!--task 2, banner section-->
             <section id="top_section">
                 <article id="introduction">
-                    <h1 id="h1" class="heading">Get schooled</h1>
+                    <h1 class="heading">Get schooled</h1>
                     <div id="3words">
                         <p class="top_word">SMILE</p>
                         <p class="top_word">GRIN</p>
@@ -32,30 +73,30 @@
                     <button type="button" id="register_btn">REGISTER FOR FREE</button>
                 </article>
                 <article id="pros">
-                    <h3 id="pros_heading" class="heading"><strong>Learn </strong>from the pros</h3>
+                    <h2 id="pros_heading" class="heading"><strong>Learn </strong>from the pros</h2>
 
                     <div id="pros_list">
 
                         <div id="pro1" class="pros_details">
-                            <img src="" alt="pro1 image" class="pros_avatar">
+                            <img src="assets/pro1.jpg" alt="pro1 image" class="pros_avatar" >
                             <h4 class="name">Phillip Messey</h4>
                             <p>best graphic designer<br> 2022 - 2023</p>
                         </div>
 
                         <div id="pro2" class="pros_details">
-                            <img src="" alt="pro2 image" class="avatar">
+                            <img src="assets/pro2.jpg" alt="pro2 image" class="avatar" >
                             <h4 class="name">Jane Wangari</h4>
                             <p>best web designer<br> 2022 - 2023</p>
                         </div>
 
                         <div id="pro3" class="pros_details">
-                            <img src="" alt="pro3 image" class=avatar">
+                            <img src="assets/pro3.jpg" alt="pro3 image" class= "avatar" >
                             <h4 class="name">James Wazimu</h4>
                             <p>best andriod developer<br> 2022 - 2023</p>
                         </div>
 
-                        <div id="pro3" class="pros_details">
-                            <img src="" alt="pro3 image" class="avatar">
+                        <div id="pro4" class="pros_details">
+                            <img src="assets/pro4.jpg" alt="pro4 image" class="avatar" >
                             <h4 class="name">James Hills</h4>
                             <p>best reactNative developer<br> 2022 - 2023</p>
                         </div>
@@ -63,10 +104,12 @@
                     </div>
                 </article>
             </section>
+                     <!--end of task 2, banner section-->
 
-            <section id="review">
+                     <!--task 3, Quote section-->
+            <section id="Quote_section">
                 <div>
-                    <img src="" alt="reviewers image" class="avatar">
+                    <img src="assets/pro3.jpg" alt="reviewers image" class="avatar" >
 
                     <div>
                         <p id="quote">I really enjoyied learning from the best </p>
@@ -75,7 +118,9 @@
 
                     </div>
                 </div>
+                 <!-- end task 3, Quote section-->
 
+                     <!--task 4, video section-->
             </section>
             <section id="tutorial_videos">
                 <h3 id="turorial_heading" class="heading">Most <strong>popular</strong> tutorials</h3>
@@ -83,124 +128,132 @@
                 <div id="videos">
 
                     <div id="video1">
-                        <img src="" class="video_tt" alt="first tutorial video">
+                        <img src="assets/Video-Icon-crop.png" class="video_tt" alt="first tutorial video">
                         <h3 class="video_title">web design</h3>
                         <p class="video_description">here you will learn the basics of web development and css</p>
 
                         <div class="author_review">
-                            <img src="" alt="the image of the reviewer" class="reviewer_avatar">
+                            <img src="assets/avatar1_ratting.jpeg" alt="the image of the reviewer" class="reviewer_avatar" >
                             <h3 class="name">wilfred James</h3>
                         </div>
 
                         <div class="ratting">
                             <div class="star_images">
-                                <img src="" alt="the first star" class="stat">
-                                <img src="" alt="the second star" class="stat">
-                                <img src="" alt="the third star" class="stat">
-                                <img src="" alt="the forth star" class="stat">
-                                <img src="" alt="the firth star" class="stat">
+                                <img src="assets/star-icon.jpg" alt="the first star" class="star" >
+                                <img src="assets/star-icon.jpg" alt="the second star" class="star" >
+                                <img src="assets/star-icon.jpg" alt="the third star" class="star" >
+                                <img src="assets/star-icon.jpg" alt="the forth star" class="star" >
+                                <img src="assets/inactive_star_icon.jpg" alt="the firth star" class="star">
                             </div>
                             <p class="last_posted">8 min ago</p>
                         </div>
                     </div>
 
                     <div id="video2">
-                        <img src="" class="video_tt" alt="first tutorial video">
+                        <img src="assets/Video-Icon-crop.png" class="video_tt" alt="first tutorial video">
                         <h3 class="video_title">back end design</h3>
                         <p class="video_description">here you will learn the basics of backend development using python</p>
 
                         <div class="author_review">
-                            <img src="" alt="the image of the reviewer" class="reviewer_avatar">
+                            <img src="assets/avatar2_ratting.jpg" alt="the image of the reviewer" class="reviewer_avatar">
                             <h3 class="name">Mosh Cobby</h3>
                         </div>
 
                         <div class="ratting">
                             <div class="star_images">
-                                <img src="" alt="the first star" class="stat">
-                                <img src="" alt="the second star" class="stat">
-                                <img src="" alt="the third star" class="stat">
-                                <img src="" alt="the forth star" class="stat">
-                                <img src="" alt="the firth star" class="stat">
+                                <img src="assets/star-icon.jpg" alt="the first star" class="star" >
+                                <img src="assets/star-icon.jpg" alt="the second star" class="star" >
+                                <img src="assets/star-icon.jpg" alt="the third star" class="star">
+                                <img src="assets/inactive_star_icon.jpg" alt="the forth star" class="star" >
+                                <img src="assets/inactive_star_icon.jpg" alt="the firth star" class="star" >
                             </div>
                             <p class="last_posted">7 min ago</p>
                         </div>
                     </div>
 
                     <div id="video3">
-                        <img src="" class="video_tt" alt="first tutorial video">
+                        <img src="assets/Video-Icon-crop.png" class="video_tt" alt="first tutorial video">
                         <h3 class="video_title">responsive website</h3>
                         <p class="video_description">here you will learn the java script basics of web development</p>
 
                         <div class="author_review">
-                            <img src="" alt="the image of the reviewer" class="reviewer_avatar">
+                            <img src="assets/avatar1_ratting.jpeg" alt="the image of the reviewer" class="reviewer_avatar" >
                             <h3 class="name">Alan Walker</h3>
                         </div>
 
                         <div class="ratting">
                             <div class="star_images">
-                                <img src="" alt="the first star" class="stat">
-                                <img src="" alt="the second star" class="stat">
-                                <img src="" alt="the third star" class="stat">
-                                <img src="" alt="the forth star" class="stat">
-                                <img src="" alt="the firth star" class="stat">
+                                <img src="assets/star-icon.jpg" alt="the first star" class="star" >
+                                <img src="assets/star-icon.jpg" alt="the second star" class="star" >
+                                <img src="assets/star-icon.jpg" alt="the third star" class="star" >
+                                <img src="assets/star-icon.jpg" alt="the forth star" class="star">
+                                <img src="assets/star-icon.jpg" alt="the firth star" class="star" >
                             </div>
                             <p class="last_posted">6 min ago</p>
                         </div>
                     </div>
 
                     <div id="video4">
-                        <img src="" class="video_tt" alt="first tutorial video">
+                        <img src="assets/Video-Icon-crop.png" class="video_tt" alt="first tutorial video">
                         <h3 class="video_title">android development</h3>
                         <p class="video_description">here you will learn the basics java kotlin and xml</p>
 
                         <div class="author_review">
-                            <img src="" alt="the image of the reviewer" class="reviewer_avatar">
+                            <img src="assets/avatar2_ratting.jpg" alt="the image of the reviewer" class="reviewer_avatar" >
                             <h3 class="name">Vybez Kartel</h3>
                         </div>
 
                         <div class="ratting">
                             <div class="star_images">
-                                <img src="" alt="the first star" class="stat">
-                                <img src="" alt="the second star" class="stat">
-                                <img src="" alt="the third star" class="stat">
-                                <img src="" alt="the forth star" class="stat">
-                                <img src="" alt="the firth star" class="stat">
+                                <img src="assets/star-icon.jpg" alt="the first star" class="star" >
+                                <img src="assets/star-icon.jpg" alt="the second star" class="star" >
+                                <img src="assets/star-icon.jpg" alt="the third star" class="star" >
+                                <img src="assets/star-icon.jpg" alt="the forth star" class="star" >
+                                <img src="assets/inactive_star_icon.jpg" alt="the firth star" class="star" >
                             </div>
                             <p class="last_posted">8 min ago</p>
                         </div>
                     </div>
                 </div>
             </section>
+                        <!-- end oftask 4, video section-->
+
+                     <!--task 5, Membership section-->
+
             <section id="Membership">
                 <h2 class="heading"><strong>Free</strong> membership</h2>
 
                 <div id="membership_details">
                     <div id="memnership1" class="member">
-                        <img src="" alt="menbership image" class="membership_image">
+                        <img src="assets/membership_holder.png" alt="menbership image" class="membership_image" >
                         <h4 class="membership_title">type 1 membership</h4>
                         <p class="Membership_text">thank you for joinig us for this journey</p>
                      </div>
 
                      <div id="memnership2" class="member">
-                        <img src="" alt="menbership image" class="membership_image">
+                        <img src="assets/membership_holder.png" alt="menbership image " class="membership_image" >
                         <h4 class="membership_title">type 2 membership</h4>
                         <p class="Membership_text">thank you for joinig us for this journey</p>
                      </div>
 
                      <div id="memnership3" class="member">
-                        <img src="" alt="menbership image" class="membership_image">
+                        <img src="assets/membership_holder.png" alt="menbership image" class="membership_image" >
                         <h4 class="membership_title">type 3 membership</h4>
                         <p class="Membership_text">thank you for joinig us for this journey</p>
                      </div>
 
                      <div id="memnership4" class="member">
-                        <img src="" alt="menbership image" class="membership_image">
+                        <img src="assets/membership_holder.png" alt="menbership image" class="membership_image" >
                         <h4 class="membership_title">type 4 membership</h4>
                         <p class="Membership_text">thank you for joinig us for this journey</p>
                      </div>
                 </div>
                 <button type="button" class="button">JOIN US TODAY</button>
             </section>
+                        <!--end of task 5, membership Qusection-->
+
+                         <!--task 6, FAQ section-->
+
             <section id="f_q">
                 <h2 id="f_q_heading">F&Q</h2>
                 <article id="f_q_details">
@@ -226,20 +279,23 @@
                     </div>
                 </article>
             </section>
+                    <!--end of task 6, FAQ section-->
         </main>
+            <!--task 7, footer section footer-->
         <footer>
-            <section id="footer_content">
+            <div id="footer_content">
                 <div id="footer_main_div">
                    <div id="footer_inner_div" >
-                    <img src="" alt="footer logo">
+                    <img src="assets/logo_image.jpg" alt="footer logo">
                     <div id="social_media_icons">
-                        <a class="icons" href=""><img src="" alt="facebook icon"></a>
-                        <a class="icons" href=""><img src="" alt="twiter icon"></a>
-                        <a class="icons" href=""><img src="" alt="intagram icon"></a>
+                        <a  href="https://facebook.com" target="_blank"><img src="assets/facebook.png" alt="facebook icon" class="icons"></a>
+                        <a  href="https://twitter.com" target="_blank"><img src="assets/twitter.png" alt="twitter icon" class="icons" ></a>
+                        <a  href="https//instagram.com" target="_blank"><img src="assets/ig_icon.png" alt="instagram icon" class="icons"></a>
                     </div>
                    </div>
                 </div>
-            </section>
+            </div>
         </footer>
+        <!--end of task 7,footer section-->
     </body>
 </html>
