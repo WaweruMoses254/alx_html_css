@@ -13,3 +13,5 @@ The flex container properties are:
     justify-content
     align-items
     align-content
+
+    values
